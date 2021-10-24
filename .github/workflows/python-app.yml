@@ -16,8 +16,12 @@ jobs:
     - name: Update paper list
       run: |
         pip install -U pip
+        pip install pandas numpy tqdm demjson
         pip install git+https://github.com/notechats/notebuild.git
-        pip install notebuild notetool notedrive notecoin notegame noteodps
+        pip install git+https://github.com/notechats/notetool.git
+        pip install git+https://github.com/notechats/notedrive.git
+        pip install git+https://github.com/notechats/notecoin.git
+        pip install git+https://github.com/notechats/notegame.git
         pip install git+https://github.com/notechats/notetask.git
         pwd
         ls -al
