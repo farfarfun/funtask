@@ -15,7 +15,7 @@ jobs:
         python-version: 3.8
     - name: Update paper list
       run: |
-        yum install libcurl-devel
+        apt-get install libcurl4-openssl-dev
         pip install -U pip
         pip install pandas numpy tqdm demjson
         pip install git+https://github.com/notechats/notebuild.git
