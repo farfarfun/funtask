@@ -13,5 +13,7 @@ jobs:
 
     - name: Update paper list
       run: |
+        pwd
+        ls -al
         cd notetask/task
         python task1.py
