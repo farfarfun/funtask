@@ -13,10 +13,10 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: 3.8
+    - name: Install xmllint
+      run: sudo apt-get install -y libcurl4-openssl-dev
     - name: Update paper list
       run: |
-        su root
-        apt-get install libcurl4-openssl-dev
         pip install -U pip
         pip install pandas numpy tqdm demjson
         pip install git+https://github.com/notechats/notebuild.git
