@@ -15,6 +15,7 @@ jobs:
         python-version: 3.7
     - name: Update paper list
       run: |
+        pip install notebuild notetool notedrive notecoin notegame noteodps
         pip install git+https://github.com/notechats/notetask.git
         pwd
         ls -al
