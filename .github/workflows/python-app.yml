@@ -19,15 +19,15 @@ jobs:
       run: |
         mkdir ~/.secret
         echo '${{ secrets.NOTETOOL_SECRET }}' > ~/.secret/secret_str
-        pip install -U pip
-        pip install pandas numpy tqdm demjson
-        pip install git+https://github.com/notechats/notebuild.git
-        pip install git+https://github.com/notechats/notetool.git
-        pip install git+https://github.com/notechats/notedrive.git
-        pip install git+https://github.com/notechats/notecoin.git
-        pip install git+https://github.com/notechats/notegame.git
-        pip install git+https://github.com/notechats/notetask.git
-        pip install git+https://github.com/notechats/noteodps.git
+        pip install -q -U pip
+        pip install -q pandas numpy tqdm demjson
+        pip install -q git+https://github.com/notechats/notebuild.git
+        pip install -q git+https://github.com/notechats/notetool.git
+        pip install -q git+https://github.com/notechats/notedrive.git
+        pip install -q git+https://github.com/notechats/notecoin.git
+        pip install -q git+https://github.com/notechats/notegame.git
+        pip install -q git+https://github.com/notechats/notetask.git
+        pip install -q git+https://github.com/notechats/noteodps.git
         pwd
         ls -al
         cd notetask/task
