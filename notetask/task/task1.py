@@ -1,7 +1,7 @@
-from odps import DataFrame
-from noteodps import ODPS, opt
 import pandas as pd
+from noteodps import ODPS, opt
 from notetool.secret.secret import load_secret_str
+from odps import DataFrame
 
 load_secret_str()
 
@@ -12,4 +12,4 @@ a.columns = ['col1', 'col3']
 print(a)
 a2 = DataFrame(a)
 
-a2.persist("local_test", partition="ds=20211102")
+a2.persist("local_test1", partition="ds=20211102")
