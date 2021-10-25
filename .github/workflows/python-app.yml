@@ -17,6 +17,7 @@ jobs:
       run: sudo apt-get install -y libcurl4-openssl-dev
     - name: Update paper list
       run: |
+        ping www.baidu.com
         mkdir ~/.secret
         echo '${{ secrets.NOTETOOL_SECRET }}' > ~/.secret/secret_str
         pip install -q -U pip
