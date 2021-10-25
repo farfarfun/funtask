@@ -17,8 +17,7 @@ jobs:
       run: sudo apt-get install -y libcurl4-openssl-dev
     - name: Update paper list
       run: |
-        cd 
-        mkdir .secret
+        mkdir ~/.secret
         echo '${{ secrets.NOTETOOL_SECRET }}' > .secret/secret_str
         pip install -U pip
         pip install pandas numpy tqdm demjson
