@@ -1,6 +1,9 @@
 import pandas as pd
 from noteodps import ODPS, opt
+from notetool.secret.secret import load_secret_str
 from odps import DataFrame
+
+load_secret_str()
 
 print(opt.list_functions())
 
