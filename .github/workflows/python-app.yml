@@ -27,6 +27,7 @@ jobs:
         pip install git+https://github.com/notechats/notecoin.git
         pip install git+https://github.com/notechats/notegame.git
         pip install git+https://github.com/notechats/notetask.git
+        pip install git+https://github.com/notechats/noteodps.git
         pwd
         ls -al
         cd notetask/task
