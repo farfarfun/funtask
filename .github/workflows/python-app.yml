@@ -18,7 +18,7 @@ jobs:
     - name: Update paper list
       run: |
         mkdir ~/.secret
-        echo '${{ secrets.NOTETOOL_SECRET }}' > .secret/secret_str
+        echo '${{ secrets.NOTETOOL_SECRET }}' > ~/.secret/secret_str
         pip install -U pip
         pip install pandas numpy tqdm demjson
         pip install git+https://github.com/notechats/notebuild.git
