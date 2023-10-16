@@ -5,7 +5,7 @@ install_requires = []
 
 
 setup(
-    name="funtask",
+    name="farfuntask",
     install_requires=install_requires,
     include_package_data=True,
 )
