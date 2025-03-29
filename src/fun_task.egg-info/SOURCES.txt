@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/fun_task.egg-info/PKG-INFO
+src/fun_task.egg-info/SOURCES.txt
+src/fun_task.egg-info/dependency_links.txt
+src/fun_task.egg-info/top_level.txt
+src/funtask/__init__.py
+src/funtask/models/__init__.py
+src/funtask/models/base.py
+src/funtask/task/__init__.py
+src/funtask/task/task1.py
