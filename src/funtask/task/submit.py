@@ -14,8 +14,10 @@ sbatch config.slurm
 
 import os
 from datetime import datetime
+
 from funbuild.shell import run_shell
-from funutil import getLogger
+from funlog import getLogger
+
 from .manager import TaskManager
 
 logger = getLogger("funbuild")

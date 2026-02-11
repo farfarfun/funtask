@@ -1,16 +1,12 @@
 [project]
 name = "ffuntask"
-version = "0.1.4"
+version = "0.1.5"
 description = "funtask"
 readme = "README.md"
 requires-python = ">=3.8"
-dependencies = []
+dependencies = [ "funlog-tau>=1.0.1",]
 [[project.authors]]
-name = "牛哥"
-email = "niuliangtao@qq.com"
-
-[[project.authors]]
-name = "farfarfun"
+name = "niuliangtao"
 email = "farfarfun@qq.com"
 
 [[project.maintainers]]
