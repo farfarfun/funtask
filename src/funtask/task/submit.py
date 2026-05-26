@@ -16,7 +16,7 @@ import os
 from datetime import datetime
 
 from funbuild.shell import run_shell
-from funlog import getLogger
+from nltlog import getLogger
 
 from .manager import TaskManager
 

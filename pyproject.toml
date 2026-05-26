@@ -1,12 +1,16 @@
 [project]
-name = "ffuntask"
-version = "0.1.5"
-description = "funtask"
+name = "nlttask"
+version = "1.0.2"
+description = "nlttask"
 readme = "README.md"
 requires-python = ">=3.8"
-dependencies = [ "funlog-tau>=1.0.1",]
+dependencies = [ "nltlog>=1.1.3", "sqlalchemy>=2.0.50",]
 [[project.authors]]
-name = "niuliangtao"
+name = "牛哥"
+email = "niuliangtao@qq.com"
+
+[[project.authors]]
+name = "farfarfun"
 email = "farfarfun@qq.com"
 
 [[project.maintainers]]
