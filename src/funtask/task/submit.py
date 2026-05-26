@@ -15,12 +15,12 @@ sbatch config.slurm
 import os
 from datetime import datetime
 
-from funbuild.shell import run_shell
+from funshell import run_shell
 from nltlog import getLogger
 
 from .manager import TaskManager
 
-logger = getLogger("funbuild")
+logger = getLogger("nltbuild")
 
 
 def submit_task():
